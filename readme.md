@@ -2,7 +2,7 @@
 
 ## Goal
 
-Trais CI build status is displayd via a Phillips HUE lightbulb
+Trais CI build status is displayed via a Phillips HUE lightbulb
 
 ## References
 
