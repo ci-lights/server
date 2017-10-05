@@ -4,7 +4,7 @@
   "description": "Listens to Travis CI webhooks and displays build status using Philips Hue lightbulbs",
   "main": "server.js",
   "scripts": {
-    "server": "node runner.js",
+    "start": "node runner.js",
     "dev": "nodemon runner.js"
   },
   "repository": {
