@@ -1,7 +1,7 @@
 {
   "name": "ci-lights",
   "version": "1.0.0",
-  "description": "A server-side utility to display Travis CI build status via a Phillips HUE lightbulb",
+  "description": "Listens to Travis CI webhooks and displays build status using Philips Hue lightbulbs",
   "main": "server.js",
   "scripts": {
     "server": "node runner.js",

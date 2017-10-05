@@ -1,6 +1,6 @@
 {
   "name": "CI Lights Server",
-  "description": "Listens to webhooks to trigger changes on Philips Hue light bulbs",
+  "description": "Listens to Travis CI webhooks and displays build status using Philips Hue lightbulbs",
   "repository": "https://github.com/ci-lights/server",
   "logo": "https://cdn.rawgit.com/ci-lights/server/98b2ef7a/public/ci-lights-logo.png",
   "keywords": ["node", "travis", "philips", "hue", "iot"]
