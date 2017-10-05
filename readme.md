@@ -3,6 +3,7 @@
 # CI Lights / Server
 
 [![license](https://img.shields.io/github/license/ci-lights/server.svg)]()
+[![Travis](https://img.shields.io/travis/ci-lights/server.svg)]()
 [![Analytics](https://ga-beacon.appspot.com/UA-107562230-1/ci-lights/server)](https://github.com/igrigorik/ga-beacon)
 
 A server-side utility to display Travis CI build status via a Phillips HUE lightbulb
