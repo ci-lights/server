@@ -2,9 +2,10 @@
 
 # CI Lights / Server
 
-## Goal
+[![license](https://img.shields.io/github/license/ci-lights/server.svg)]()
+[![Analytics](https://ga-beacon.appspot.com/UA-107562230-1/ci-lights/server)](https://github.com/igrigorik/ga-beacon)
 
-Trais CI build status is displayed via a Phillips HUE lightbulb
+A server-side utility to display Travis CI build status via a Phillips HUE lightbulb
 
 ## Deploy
 
@@ -12,8 +13,9 @@ Trais CI build status is displayed via a Phillips HUE lightbulb
 
 ## References
 
-* Configuring Webhook Notifications on Travis CI https://docs.travis-ci.com/user/notifications/#Configuring-webhook-notifications
-* Philips Hue API https://www.developers.meethue.com/
+* [Configuring Webhook Notifications on Travis CI](https://docs.travis-ci.com/user/notifications/#Configuring-webhook-notifications)
+* [Philips Hue API](https://www.developers.meethue.com)
+
 ### Logo
 
 * Icon: `lightbulb outline` from [Material Design Icons](https://material.io/icons/#ic_lightbulb_outline)
