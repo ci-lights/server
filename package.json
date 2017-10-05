@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/ci-lights/server/issues"
   },
-  "homepage": "https://github.com/ci-lights/server#readme",
+  "homepage": "https://github.com/ci-lights/server",
   "devDependencies": {
     "nodemon": "1.12.1"
   },
