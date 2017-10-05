@@ -2,8 +2,8 @@
 
 # CI Lights / Server
 
-[![license](https://img.shields.io/github/license/ci-lights/server.svg)]()
-[![Travis](https://img.shields.io/travis/ci-lights/server.svg)]()
+[![license](https://img.shields.io/github/license/ci-lights/server.svg)](#license)
+[![Travis](https://img.shields.io/travis/ci-lights/server.svg)](https://travis-ci.org/ci-lights/server)
 [![Analytics](https://ga-beacon.appspot.com/UA-107562230-1/ci-lights/server)](https://github.com/igrigorik/ga-beacon)
 
 Listens to Travis CI webhooks and displays build status using Philips Hue lightbulbs
