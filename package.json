@@ -1,0 +1,24 @@
+{
+  "name": "ci-lights",
+  "version": "1.0.0",
+  "description": "A server-side utility to display Travis CI build status via a Phillips HUE lightbulb",
+  "main": "server.js",
+  "scripts": {
+    "server": "node runner.js",
+    "dev": "nodemon runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ci-lights/server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ci-lights/server/issues"
+  },
+  "homepage": "https://github.com/ci-lights/server#readme",
+  "devDependencies": {
+    "nodemon": "1.12.1"
+  }
+}
