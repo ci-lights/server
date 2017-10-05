@@ -20,5 +20,8 @@
   "homepage": "https://github.com/ci-lights/server#readme",
   "devDependencies": {
     "nodemon": "1.12.1"
+  },
+  "dependencies": {
+    "restify": "6.0.1"
   }
 }
