@@ -10,7 +10,7 @@ cache:
 notifications:
   webhooks:
     urls:
-      - https://ci-lights-server.herokuapp.com/
+      - https://ci-lights-server.herokuapp.com/notify
     on_success: change # default: always
     on_failure: always # default: always
     on_start: always   # default: never
