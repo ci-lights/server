@@ -9,15 +9,24 @@ class Server {
   setupRestify() {
     const server = restify.createServer({});
 
-    server.get('notify', this.handleWebhook.bind(this));
+    server.use(restify.plugins.bodyParser());
+
+    server.post('notify', this.handleWebhook.bind(this));
     server.get('/a', this.handleHomepage.bind(this));
 
     return server;
   }
 
   handleWebhook(req, res, next) {
-    console.log('Got a notification');
-    res.send({status: 'ok'});
+    const payloadText = req.body.payload;
+    const payload = JSON.parse(payloadText);
+
+    console.log(`Got a notification`, {
+      branch: payload.branch,
+      state: payload.state,
+    });
+
+    res.send({status: 'ack'});
     next();
   }
 
