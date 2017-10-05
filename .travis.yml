@@ -6,6 +6,16 @@ cache:
   directories:
     - "node_modules"
 
+notifications:
+  webhooks:
+    urls:
+      - https://ci-lights-server.herokuapp.com/
+    on_success: change # default: always
+    on_failure: always # default: always
+    on_start: change   # default: never
+    on_cancel: always # default: always
+    on_error: always # default: always
+
 deploy:
   provider: heroku
   api_key: # @see https://docs.travis-ci.com/user/encryption-keys/
