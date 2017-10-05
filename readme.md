@@ -14,6 +14,15 @@ Trais CI build status is displayed via a Phillips HUE lightbulb
 
 * Configuring Webhook Notifications on Travis CI https://docs.travis-ci.com/user/notifications/#Configuring-webhook-notifications
 * Philips Hue API https://www.developers.meethue.com/
+### Logo
+
+* Icon: `lightbulb outline` from [Material Design Icons](https://material.io/icons/#ic_lightbulb_outline)
+* Color: `#8bc34a`
+* Background color: `#8bc34a`
+* Effect: _elevate_
+
+Generated using [Android Asset Studio](https://github.com/romannurik/AndroidAssetStudio) by [Roman Nurik](Roman Nurik)
+
 # License
 
 MIT License
