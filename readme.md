@@ -1,3 +1,5 @@
+<img align="right" width="100" height="100" src="/public/ci-lights-logo.png">
+
 # CI Lights / Server
 
 ## Goal
