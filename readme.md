@@ -23,7 +23,7 @@ Coming soon
 
 ### Logo
 
-Generated using [Launcher icon generator from Android Asset Studio](https://github.com/romannurik/AndroidAssetStudio) by [Roman Nurik](Roman Nurik)
+Generated using [Launcher icon generator from Android Asset Studio](https://github.com/romannurik/AndroidAssetStudio) by [Roman Nurik](https://github.com/romannurik)
  
 * Icon: `lightbulb outline` from [Material Design Icons](https://material.io/icons/#ic_lightbulb_outline)
 * Color: `#ffffff`
