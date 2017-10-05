@@ -17,22 +17,28 @@ class Server {
     return server;
   }
 
+  handleHomepage(req, res, next) {
+    res.send(this.config.defaultMessage);
+    next();
+  }
+
   handleWebhook(req, res, next) {
     const payloadText = req.body.payload;
     const payload = JSON.parse(payloadText);
 
-    console.log(`Got a notification`, {
-      branch: payload.branch,
-      state: payload.state,
-    });
+    // @see https://docs.travis-ci.com/user/notifications/#Webhooks-Delivery-Format
+    this.handleBuildStatus(payload.branch, payload.state, payload.pull_request)
 
     res.send({status: 'ack'});
     next();
   }
 
-  handleHomepage(req, res, next) {
-    res.send(this.config.defaultMessage);
-    next();
+  handleBuildStatus(branch, state, is_pull_request) {
+    console.log(`Got a notification`, {
+      branch,
+      state,
+      is_pull_request
+    });
   }
 
   run() {
