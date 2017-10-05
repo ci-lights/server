@@ -6,6 +6,10 @@
 
 Trais CI build status is displayed via a Phillips HUE lightbulb
 
+## Deploy
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ci-lights/server)
+
 ## References
 
 * Configuring Webhook Notifications on Travis CI https://docs.travis-ci.com/user/notifications/#Configuring-webhook-notifications
