@@ -1,10 +1,10 @@
-<img align="right" width="100" height="100" src="/public/ci-lights-logo.png">
+<img align="right" width="100" height="100" src="/public/ci-logo.png">
 
-# CI Lights / Server
+# CI Status / Server
 
-[![license](https://img.shields.io/github/license/ci-lights/server.svg)](#license)
-[![Travis](https://img.shields.io/travis/ci-lights/server.svg)](https://travis-ci.org/ci-lights/server)
-[![Analytics](https://ga-beacon.appspot.com/UA-107562230-1/ci-lights/server)](https://github.com/igrigorik/ga-beacon)
+[![license](https://img.shields.io/github/license/ci-status/server.svg)](#license)
+[![Travis](https://img.shields.io/travis/ci-status/server.svg)](https://travis-ci.org/ci-status/server)
+[![Analytics](https://ga-beacon.appspot.com/UA-107562230-1/ci-status/server)](https://github.com/igrigorik/ga-beacon)
 
 Listens to Travis CI webhooks and displays build status using Philips Hue lightbulbs
 
@@ -14,7 +14,7 @@ Coming soon
 
 ## Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ci-lights/server)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ci-status/server)
 
 ## References
 
@@ -34,7 +34,7 @@ Generated using [Launcher icon generator from Android Asset Studio](https://gith
 
 MIT License
 
-Copyright (c) 2017 CI Lights
+Copyright (c) 2017 CI Status
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
